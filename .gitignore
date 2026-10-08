@@ -1,0 +1,37 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Alembic and application logs
+*.log
+logs/
+
+# IDE settings
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Local uploads and generated data
+uploads/
+data/
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
